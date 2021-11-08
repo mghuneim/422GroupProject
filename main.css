@@ -5,8 +5,11 @@
 --glaucous: #6c86d2ff;
 --glaucous-2: #6a7bd4ff; */
 
-#welcomePage{
+body{
   background-color: #6d91cfff;
+}
+
+#welcomePage{
   text-align: center;
   margin:10px;
   padding-top: 10em;
@@ -35,4 +38,18 @@
 }
 .dropdown-item{
   text-align: center;
+}
+
+.navbar {
+  background-color: #6a7bd4ff;
+}
+
+.nav.navbar-nav ul {
+  align-items: center;
+}
+
+.nav.navbar-nav li a {
+  color: darkslateblue;
+  font-size: 25px;
+  font-family: sans-serif;
 }
