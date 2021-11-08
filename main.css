@@ -1,4 +1,5 @@
-/* --air-superiority-blue: #70a6caff;
+/* COLOR PALETTE:
+--air-superiority-blue: #70a6caff;
 --blue-gray: #6f9bcdff;
 --united-nations-blue: #6d91cfff;
 --glaucous: #6c86d2ff;
@@ -14,5 +15,24 @@
 
 #welcomePage .btn{
   background-color: white;
+  text-align: center;
+}
+
+
+/* NAVBAR */
+.navbar-nav { 
+  flex-direction: row;
+  font-size: 20px;
+  border: 2px;
+}
+.nav-item{
+  padding-right:3.5em;
+  padding-left:3.5em;
+}
+.dropdown-menu{
+  padding-right:3.5em;
+  padding-left:3.5em;
+}
+.dropdown-item{
   text-align: center;
 }
