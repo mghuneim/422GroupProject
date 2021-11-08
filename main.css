@@ -1,18 +1,55 @@
-/* --air-superiority-blue: #70a6caff;
+/* COLOR PALETTE:
+--air-superiority-blue: #70a6caff;
 --blue-gray: #6f9bcdff;
 --united-nations-blue: #6d91cfff;
 --glaucous: #6c86d2ff;
 --glaucous-2: #6a7bd4ff; */
 
-#welcomePage {
+body{
   background-color: #6d91cfff;
+}
+
+#welcomePage{
   text-align: center;
-  margin: 10px;
+  margin:10px;
   padding-top: 10em;
   padding-bottom: 10em;
 }
 
-#welcomePage .btn {
+#welcomePage .btn{
   background-color: white;
   text-align: center;
+}
+
+
+/* NAVBAR */
+.navbar-nav { 
+  flex-direction: row;
+  font-size: 20px;
+  border: 2px;
+}
+.nav-item{
+  padding-right:3.5em;
+  padding-left:3.5em;
+}
+.dropdown-menu{
+  padding-right:3.5em;
+  padding-left:3.5em;
+}
+.dropdown-item{
+  text-align: center;
+}
+
+.navbar {
+  background-color: #6a7bd4ff;
+}
+
+.nav.navbar-nav ul {
+  align-items: center;
+}
+
+.nav.navbar-nav li a {
+  color: darkslateblue;
+  font-size: 25px;
+  font-family: sans-serif;
 }
