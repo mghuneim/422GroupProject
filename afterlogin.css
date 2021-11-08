@@ -1,0 +1,30 @@
+/* --air-superiority-blue: #70a6caff;
+--blue-gray: #6f9bcdff;
+--united-nations-blue: #6d91cfff;
+--glaucous: #6c86d2ff;
+--glaucous-2: #6a7bd4ff; */
+
+body {
+  background-color: #70a6caff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+.navbar-custom {
+  background-color: #6a7bd4ff;
+}
+
+.nav.navbar-nav ul {
+  align-items: center;
+}
+
+.nav.navbar-nav li a {
+  color: darkslateblue;
+  font-size: 25px;
+  font-family: sans-serif;
+}
