@@ -4,9 +4,15 @@
 --glaucous: #6c86d2ff;
 --glaucous-2: #6a7bd4ff; */
 
-#welcome1{
+#welcomePage{
   background-color: #6d91cfff;
   text-align: center;
+  margin:10px;
   padding-top: 10em;
   padding-bottom: 10em;
+}
+
+#welcomePage .btn{
+  background-color: white;
+  text-align: center;
 }
