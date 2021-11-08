@@ -39,15 +39,12 @@ body{
 .dropdown-item{
   text-align: center;
 }
-
 .navbar {
   background-color: #6a7bd4ff;
 }
-
 .nav.navbar-nav ul {
   align-items: center;
 }
-
 .nav.navbar-nav li a {
   color: darkslateblue;
   font-size: 25px;
