@@ -25,18 +25,18 @@ body{
 /* NAVBAR */
 .navbar-nav { 
   flex-direction: row;
-  font-size: 20px;
-  border: 2px;
+  font-size: 2vw;
 }
-.nav-item{
-  padding-right:3.5em;
-  padding-left:3.5em;
+.nav-item {
+  padding-right:2.21em;
+  padding-left:2.21em;
 }
 .dropdown-menu{
-  padding-right:3.5em;
-  padding-left:3.5em;
+  left:4vw;
+  min-width: inherit;
 }
 .dropdown-item{
+  font-size:1.5vw;
   text-align: center;
 }
 .navbar {
@@ -49,4 +49,7 @@ body{
   color: darkslateblue;
   font-size: 25px;
   font-family: sans-serif;
+}
+#navhead{
+  font-size: 3vw;
 }
