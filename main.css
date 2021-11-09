@@ -15,12 +15,18 @@ body{
   padding-top: 10em;
   padding-bottom: 10em;
 }
-
 #welcomePage .btn{
   background-color: white;
   text-align: center;
 }
 
+#welcomePage2{
+  padding-top: 14vh;
+  text-align: center;
+}
+#welcomePage2 h4{
+  padding: 1vh;
+}
 
 /* NAVBAR */
 .navbar-nav { 
