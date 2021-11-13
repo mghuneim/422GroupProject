@@ -31,7 +31,7 @@
                 <a class="dropdown-item" href="list.html">List</a>
               </div>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="AppsDropdownNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Applications
                 </a>
@@ -40,7 +40,7 @@
                   <a class="dropdown-item" href="decisions.html">Decisions</a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="DocumentsDropdownNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Documents
                 </a>
@@ -65,70 +65,30 @@
           </ul>
         </div>
     </nav>
-    <table class="table table-borderless table-sm">
-        <tr>
-            <td><h2>Essays:</h2></td>
-        </tr>
-        <tr>
-            <td class="hf">School Name:Loyoler</td>
-        </tr>
-        <tr>
-            <td class="df">
-                Personal Statement:
-            </td>
-            <td>
-                <input type="file" value="Choose File" id="1">
-                <button class="lbtn" onclick="msg(1)">Upload</button>
-            </td>
-        </tr>
-        <tr>
-            <td class="df">
-                Experience Description:
-            </td>
-            <td>
-                <input type="file" value="Choose File" id="2">
-                <button class="lbtn" onclick="msg(2)">Upload</button>
-            </td>
-        </tr>
-        <tr>
-            <td class="df">
-                MD-PHD Essay:
-            </td>
-            <td>
-                <input type="file" value="Choose File" id="3">
-                <button class="lbtn" onclick="msg(3)">Upload</button>
-            </td>
-        </tr>
-        <tr>
-            <td class="df">
-                Secondary Essay:
-            </td>
-            <td>
-                <input type="file" value="Choose File" id="4">
-                <button class="lbtn" onclick="msg(4)">Upload</button>
-            </td>
-        </tr>
-        <tr>
-          <td>
-            
-          </td>
-          <td>
-            <button class="lbtn" onclick="location.href='essays2.html'">Submit</button>
-          </td>
-        </tr>
+    <table class="table table-borderless text-center">
+      <tr>
+        <td><h2>Forms:</h2></td>
+      </tr>
+      <tr class="hf">
+        <td>School Names:</th>
+        <td>Status:</th>
+      </tr>
+      <tr class="df">
+        <td>Loyoler</td>
+        <td>Submitted
+          <button class="lbtn" onclick="location.href='forms1.html'">View Forms</button></td>
+      </tr>
+      <tr class="df">
+        <td>UID</td>
+        <td>Submitted
+          <button class="lbtn"  onclick="location.href='forms1.html'">View Forms</button></td>
+      </tr>
+      <tr class="df">
+        <td>DePow</td>
+        <td>Submitted
+          <button class="lbtn"  onclick="location.href='forms1.html'">View Forms</button></td>
+      </tr>
     </table>
-    <script>
-        function msg(id){
-          console.log(id);
-          var length=document.getElementById(id).files.length;
-          if (length===0){
-            alert("Select a File and then upload")
-          }
-          else{
-            alert("File uploaded successfully");
-          }
-        }
-      </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" crossorigin="anonymous"></script>
