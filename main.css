@@ -306,3 +306,6 @@ button {
 .arrowsInModal{
   background-color: #6c86d2ff;
 }
+.head .btn, .modal-footer .btn{
+  background-color: #70a6caff;
+}
