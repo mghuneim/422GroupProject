@@ -211,3 +211,7 @@ body {
   font-size:1.2rem;
 }
 
+.login{
+  position: absolute;
+  top:30%;
+}
