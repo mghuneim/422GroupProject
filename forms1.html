@@ -66,28 +66,64 @@
           </ul>
         </div>
     </nav>
-    <table class="table table-borderless text-center">
+    <table class="table table-borderless">
       <tr>
-        <td><h2>Forms:</h2></td>
+        <td>
+          <h2>Forms</h2>
+        </td>
+      </tr> 
+      <tr>
+        <td class="hf">
+          School Name: Loyoler
+        </td>
       </tr>
-      <tr class="hf">
-        <td>School Names:</th>
-        <td>Status:</th>
+      <tr>
+        <td class="df">
+          Transcripts:
+        </td>
+        <td>
+          <input type="file" value="Choose File" id="1">
+          <button class="lbtn" onclick="msg(1)">Upload</button>
+        </td>
       </tr>
-      <tr class="df">
-        <td>Loyoler</td>
-        <td>Not Yet Submitted
-          <button class="lbtn" onclick="location.href='forms1.html'">Upload Forms</button></td>
+      <tr>
+        <td class="df">
+          Resume:
+        </td>
+        <td>
+          <input type="file" value="Choose File" id="2">
+          <button class="lbtn" onclick="msg(2)">Upload</button>
+        </td>
       </tr>
-      <tr class="df">
-        <td>UID</td>
-        <td>Submitted
-          <button class="lbtn"  onclick="location.href='forms1.html'">View Forms</button></td>
+      <tr>
+        <td class="df">
+          GPA:
+        </td>
+        <td>
+          <input type="text"><span style="margin:2px">/4.00</span>
+        </td>
       </tr>
-      <tr class="df">
-        <td>DePow</td>
-        <td>Submitted
-          <button class="lbtn"  onclick="location.href='forms1.html'">View Forms</button></td>
+      <tr>
+        <td class="df">
+          MCAT:
+        </td>
+        <td>
+          Section1: <input type="text"><span style="margin:2px">/132</span>
+        </td>
+        <td>
+          Section2: <input type="text"><span style="margin:2px">/132</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+        </td>
+        <td>
+          Section3: <input type="text"><span style="margin:2px">/132</span>
+        </td>
+        <td>
+          Section4: <input type="text"><span style="margin:2px">/132</span>
+        </td>
       </tr>
     </table>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
