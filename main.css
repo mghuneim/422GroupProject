@@ -282,8 +282,8 @@ ul {list-style-type: none;}
   height: 50px;
 }
 
-input.form-control, button.btn {
-  background-color: #6a7bd4ff;
+button {
+  background-color: rgb(136, 141, 167);
   outline-color: #000;
 }
 
