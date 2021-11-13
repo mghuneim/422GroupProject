@@ -27,6 +27,13 @@ body {
 #welcomePage2 h4 {
   padding: 1vh;
 }
+#welcomePage2 .container{
+  padding-left: 33vw;
+}
+
+a{
+  color: rgb(175, 188, 255);
+}
 
 /* NAVBAR */
 .navbar-nav {
@@ -58,6 +65,7 @@ body {
 }
 #navhead {
   font-size: 3vw;
+  color:rgb(190, 213, 252);
 }
 
 #searchTitle {
@@ -104,11 +112,7 @@ body {
   margin-bottom: 20px;
 }
 
-#box1,
-#box2,
-#box3,
-#box4,
-#box5 {
+#box1, #box2, #box3, #box4, #box5 {
   text-align: center;
 }
 
@@ -148,8 +152,7 @@ body {
   margin-bottom: 20px;
 }
 
-#box6,
-#box8 {
+#box6, #box8 {
   margin-left: 40px;
 }
 
